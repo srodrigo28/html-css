@@ -1,0 +1,38 @@
+.btn{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    
+    text-transform: capitalize;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    
+}
+
+.btn-red{
+    color: #fff;
+    transition: 1s;
+    background-color: red;
+}
+.btn-orange{
+    color: #fff;
+    transition: 1s;
+    background-color: orange;
+}
+.btn-verde{
+    color: #fff;
+    transition: 1s;
+    background-color: green;
+}
+
+.btn-verde:hover, .btn-orange:hover, .btn-red:hover{
+    opacity: .7;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
