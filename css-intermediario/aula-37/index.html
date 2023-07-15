@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    <style>
+        #fixo{
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        #relative{
+            position: relative;
+            left: -30px;
+            top: 0;
+            width: 660px;
+        }
+        #absolute{
+            position: absolute;
+            bottom: 0;
+            right: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Elemento Inline Elemento Block</h1>
+        <div class="div relative">Relative</div>
+        <div class="div absolute">Absolute</div>
+        <div class="div fixed"> Fixed</div>
+    </div>
+</body>
+</html>
