@@ -5,10 +5,75 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="#" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Site</title>
 </head>
 <body>
-    
+    <header>
+        <form id="register">
+            <p>Cadastra-se</p>
+
+            <div class="field"><input type="text" placeholder="Nome"    /></div>
+            <div class="field"><input type="email" placeholder="E-mail" /></div>
+            <div class="field"><input type="date"></div>
+            <div class="field">
+                <label><input type="radio" name="gender" value="M"> <span>Masculino</span> </label>
+                <label><input type="radio" name="gender" value="F"> <span>Feminino</span>  </label>
+            </div>
+            <button>Registrar</button>
+        </form>
+        <div class="bg-gradient">
+           <div class="header-border">
+                <div id="logo">Business</div>
+                <div class="menu">
+                    <button type="button" class="open-menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="backgrop"></div>
+                    <ul>
+                        <li class="close-menu"> 
+                            <button type="button"><i class="fa fa-times"></i></button>
+                        </li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+           </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <main class="container">
+            <div class="title">
+                <h1>Home Page</h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias libero possimus maiores vero repellendus suscipit deserunt iusto tempora beatae. Nulla voluptas repellendus corporis eaque doloremque neque voluptatibus vitae? Odio, at?
+            Autem sed consectetur sit labore laborum maiores dicta, modi inventore provident ratione, sunt optio sapiente vitae eligendi repudiandae aliquam fugit accusamus architecto blanditiis? Rerum assumenda consequatur magni nobis deserunt ad?
+            Dolorem vel pariatur facere dolor officia neque recusandae exercitationem esse quo sed asperiores blanditiis labore reiciendis necessitatibus commodi minima repellendus aut ad perspiciatis inventore perferendis, provident est dignissimos eveniet. Facere.
+            Consequatur voluptatem assumenda nam deserunt saepe ipsam aspernatur eaque vel eius, alias architecto natus culpa autem odio deleniti excepturi totam. Alias tenetur libero temporibus veritatis sunt quis vel molestias dolore.
+            Error veritatis mollitia expedita nobis perspiciatis totam voluptatibus nam laborum quod cumque? Ipsum voluptates nesciunt, quaerat voluptatum necessitatibus velit. Libero recusandae temporibus, eveniet eaque ipsum non quis eum distinctio nisi?
+            Error eos consequuntur nemo deserunt, reprehenderit cum nam quia, sit, nostrum at obcaecati esse distinctio iste accusantium iusto ducimus aliquam dolore dolorem vel maiores labore. Culpa dolorem dolorum animi ipsum?
+            </p>
+        </main>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Todos os direitos reservados</p>
+            <p>Todos os direitos reservados</p>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
     <script src="./script.js"></script>
 </body>
 </html>
