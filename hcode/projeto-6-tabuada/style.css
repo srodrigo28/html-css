@@ -1,0 +1,54 @@
+body{
+    background-color: #000;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+header{
+    margin-top: -90px;
+    color: #fff;
+    text-align: center;
+}
+section{
+    gap: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: darkviolet;
+}
+.resutlado{
+    text-align: center;
+}
+input{
+    text-align: center;
+    width: 50px;
+}
+table{
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    border-collapse: collapse;
+}
+table td{
+    padding: .7em;
+    border-top: 1px solid #999;
+}
+table tbody tr:nth-child(even){
+    background-color: rgba(0,0,0,.5);
+}
+
+.footer{
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    margin-left: 50px;
+}
+.footer span{
+    margin: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: darkviolet;
+}

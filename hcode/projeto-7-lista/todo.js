@@ -1,5 +1,4 @@
-let data = [
-]
+let data = []
 
 console.log(data)
 function renderTodo() {
@@ -20,13 +19,19 @@ function renderTodo() {
         })
         li.querySelector('button').addEventListener('click', e => {
             console.warn("Deseja realmente apagar?")
+            // console.log(e.target.parentNode.querySelector('input').id)
+            let todoId = (e.target.parentNode.querySelector('input').id)
+            let title = li.querySelector('label').innerText
+
+            if(confirm("Deseja realmente excluir a tarefa? " + title)) {
+                data = data.filter(task => task.id !== parseInt(todoId))
+                renderTodo()
+            }
         })
 
         document.querySelector('.todo').append(li)
     })
 }
-
-
 
 document.querySelector('#new-task').addEventListener('keyup', e => {
     if (e.key === 'Enter') {
